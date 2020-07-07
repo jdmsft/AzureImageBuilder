@@ -4,15 +4,15 @@
     "parameters": {
       "imageTemplateName": {
         "type": "string",
-        "defaultvalue": "BuildWinImageTemplate"
+        "defaultValue": "BuildWinImageTemplate"
         },
         "api-version": {
           "type": "string",
-          "defaultvalue": "2019-05-01-preview"
+            "defaultValue": "2019-05-01-preview"
         },
         "location": {
             "type": "string",
-            "defaultvalue": "westeurope"
+            "defaultValue": "westeurope"
         },
         "managedIdentityId": {
             "type": "string"

@@ -1,0 +1,1 @@
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjdmsft%2FAzureImagebuilder%2Fmaster%2FTemplate%2FCreateWinImageToSIG.json" target="_blank">buildWinImageToSIG</a>
