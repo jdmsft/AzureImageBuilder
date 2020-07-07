@@ -30,7 +30,7 @@ $identityNamePrincipalId = (Get-AzUserAssignedIdentity -ResourceGroupName $image
 
 # Assign permissions for identity to distribute images
 $imageRoleDefName = "Azure Image Builder"
-$myRoleImageCreationUrl = 'https://raw.githubusercontent.com/jdmsft/AzureImageBuilder/CustomRole/AzureImageBuilderContributor.json'
+$myRoleImageCreationUrl = 'https://raw.githubusercontent.com/jdmsft/AzureImageBuilder/master/CustomRole/AzureImageBuilderContributor.json'
 $myRoleImageCreationPath = "$env:TEMP\myRoleImageCreation.json"
 Invoke-WebRequest -Uri $myRoleImageCreationUrl -OutFile $myRoleImageCreationPath -UseBasicParsing
 $Content = Get-Content -Path $myRoleImageCreationPath -Raw
