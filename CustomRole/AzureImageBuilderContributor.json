@@ -1,7 +1,7 @@
 {
     "Name": "Azure Image Builder Contributor",
     "IsCustom": true,
-    "Description": "Image Builder access to create resources for the image build, you should delete or split out as appropriate",
+    "Description": "Lets you manage Azure images and Shared Image Gallery images versions (role designed for Azure Image Builder service)",
     "Actions": [
         "Microsoft.Compute/galleries/read",
         "Microsoft.Compute/galleries/images/read",
